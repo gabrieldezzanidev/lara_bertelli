@@ -53,11 +53,11 @@ body {
 }
 .display-7 {
   font-family: 'DM Sans', sans-serif;
-  font-size: 1.375rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.71875rem;
+  font-size: 1.5rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -91,9 +91,9 @@ body {
     line-height: calc( 1.4 * (1.6125rem + (2.75 - 1.6125) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.1rem;
-    font-size: calc( 1.13125rem + (1.375 - 1.13125) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.13125rem + (1.375 - 1.13125) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -614,13 +614,13 @@ a:hover {
 }
 .form-control {
   font-family: 'DM Sans', sans-serif;
-  font-size: 1.375rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 400;
   border-radius: 100px !important;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.71875rem;
+  font-size: 1.5rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -629,12 +629,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'DM Sans', sans-serif;
-  font-size: 1.375rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.71875rem;
+  font-size: 1.5rem;
 }
 blockquote {
   border-color: #ffffff;
@@ -2861,7 +2861,7 @@ img {
 }
 .cid-um8wtv26m7 {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   background-color: #000000;
 }
 .cid-um8wtv26m7 .row-links {
