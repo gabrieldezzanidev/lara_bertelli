@@ -2530,71 +2530,144 @@ img {
   position: absolute;
   top: 0;
 }
-.cid-um5VtUmNmb {
-  padding-top: 5rem;
-  padding-bottom: 4rem;
+.cid-umQqUzPd9H {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
   background-image: url("../../../assets/images/lara-1920x1080.png");
 }
-.cid-um5VtUmNmb .mbr-overlay {
-  background: #000000;
-  opacity: 0;
+.cid-umQqUzPd9H .mbr-fallback-image.disabled {
+  display: none;
 }
-.cid-um5VtUmNmb h6 {
-  line-height: 1.2;
-}
-.cid-um5VtUmNmb img,
-.cid-um5VtUmNmb .item-img {
+.cid-umQqUzPd9H .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
 }
-.cid-um5VtUmNmb .item:focus,
-.cid-um5VtUmNmb span:focus {
-  outline: none;
+@media (min-width: 768px) {
+  .cid-umQqUzPd9H .container-fluid {
+    padding: 0;
+  }
 }
-.cid-um5VtUmNmb .row {
-  margin-left: 0;
-  margin-right: 0;
-}
-.cid-um5VtUmNmb .item {
-  padding: 0;
-  margin: 0;
-}
-.cid-um5VtUmNmb .item-wrapper {
-  position: relative;
+.cid-umQqUzPd9H .embla__slide {
   display: flex;
-  flex-flow: column nowrap;
-  margin-bottom: 2rem;
+  justify-content: center;
+  position: relative;
+  min-width: 490px;
+  max-width: 490px;
 }
-.cid-um5VtUmNmb .mbr-section-btn {
-  margin-top: auto !important;
-  text-align: center;
+@media (max-width: 768px) {
+  .cid-umQqUzPd9H .embla__slide {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
 }
-.cid-um5VtUmNmb .mbr-section-title {
-  color: #181818;
+.cid-umQqUzPd9H .embla__button--next,
+.cid-umQqUzPd9H .embla__button--prev {
+  display: flex;
 }
-.cid-um5VtUmNmb .mbr-text,
-.cid-um5VtUmNmb .mbr-section-btn {
-  color: #000000;
+.cid-umQqUzPd9H .mobi-mbri-arrow-next {
+  margin-left: 5px;
 }
-.cid-um5VtUmNmb .item-title {
-  color: #000000;
-  text-align: center;
+.cid-umQqUzPd9H .mobi-mbri-arrow-prev {
+  margin-right: 5px;
 }
-.cid-um5VtUmNmb .item-subtitle {
-  color: #000000;
-  text-align: center;
+.cid-umQqUzPd9H .embla__button {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.cid-um5VtUmNmb .item-text {
-  color: #000000;
-  text-align: center;
+.cid-umQqUzPd9H .embla__button:disabled {
+  cursor: default;
+  display: none;
 }
-.cid-um5VtUmNmb .content-head {
-  max-width: 800px;
+.cid-umQqUzPd9H .embla__button.embla__button--prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-umQqUzPd9H .embla__button.embla__button--next {
+  right: 0;
+  margin-right: 2.5rem;
 }
 @media (max-width: 767px) {
-  .cid-um5VtUmNmb .item-wrapper {
-    margin-bottom: 1rem;
+  .cid-umQqUzPd9H .embla__button {
+    top: auto;
+    bottom: 1rem;
   }
+}
+.cid-umQqUzPd9H .embla {
+  position: relative;
+  width: 100%;
+}
+.cid-umQqUzPd9H .embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+.cid-umQqUzPd9H .embla__viewport.is-draggable {
+  cursor: grab;
+}
+.cid-umQqUzPd9H .embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+.cid-umQqUzPd9H .embla__slide a {
+  cursor: grab;
+}
+.cid-umQqUzPd9H .embla__slide a:active {
+  cursor: grabbing;
+}
+.cid-umQqUzPd9H .embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.cid-umQqUzPd9H .item-menu-overlay {
+  border-radius: 2rem;
+}
+.cid-umQqUzPd9H .mbr-section-title {
+  color: #232323;
+}
+.cid-umQqUzPd9H .mbr-section-subtitle {
+  color: #232323;
+}
+.cid-umQqUzPd9H .mbr-box {
+  color: #ffffff;
+}
+.cid-umQqUzPd9H .slide-content {
+  position: relative;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-flow: column nowrap;
+}
+.cid-umQqUzPd9H img,
+.cid-umQqUzPd9H .item-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.cid-umQqUzPd9H .item-wrapper {
+  position: relative;
+}
+.cid-umQqUzPd9H .content-head {
+  max-width: 800px;
 }
 .cid-um617HzSit {
   padding-top: 5rem;
